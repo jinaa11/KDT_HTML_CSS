@@ -7,3 +7,6 @@
 
 /* pages */
 @import url('pages/main.css');
+
+/* ui */
+@import url('ui/ui.css');

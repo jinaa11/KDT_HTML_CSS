@@ -1,0 +1,14 @@
+#banner {
+  /* width: 1500px; */
+  margin-top: 139px;
+  /* margin: 0 auto; */
+}
+
+#banner .banner_area {
+  width: 1500px;
+  height: 600px;
+  background-image: url('../../images/slider/1500_14.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}

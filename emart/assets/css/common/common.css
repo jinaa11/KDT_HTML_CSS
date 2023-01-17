@@ -1,0 +1,22 @@
+html {
+  font-size: 14px;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+body a {
+  text-decoration: 0;
+}
+
+body ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+section{
+  width: 1500px;
+  margin: 0 auto;
+}

@@ -7,6 +7,17 @@ body {
   padding: 0px;
 }
 
+/* 폰트 설정 */
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Dongle', sans-serif;
+}
+
+/* 드래그 블럭 색상 지정 */
+::selection {
+  background-color: var(--emart_black);
+  color: var(--emart_yellow);
+}
+
 body a {
   text-decoration: 0;
 }

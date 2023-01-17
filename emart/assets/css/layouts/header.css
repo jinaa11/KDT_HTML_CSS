@@ -17,6 +17,22 @@ header .top_menu {
   background-color: #F1F1F2;
 }
 
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 992px) {
+  header .top_menu {
+    background-color: var(--emart_black);
+    color: white !important;
+  }
+}
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+  header .top_menu {
+    background-color: var(--emart_red);
+    color: white !important;
+  }
+}
+
 header .top_menu nav {
   /* 여백 없이 가로 중앙에 배치 */
   margin: 0 auto;
@@ -68,6 +84,9 @@ header .main_menu {
 header .main_menu nav ul {
   display: flex;
   justify-content: flex-end;
+  /* 메인 메뉴 폰트 설정 */
+  font-family: 'Nanum Pen Script', cursive;
+
 }
 
 header .main_menu nav ul li {

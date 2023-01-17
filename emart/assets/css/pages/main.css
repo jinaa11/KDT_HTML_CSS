@@ -64,3 +64,33 @@
   opacity: 0.5;
   transition: 0.5s;
 }
+
+#event .event_product p {
+  text-align: center;
+}
+
+#event .event_product .product_title {
+  height: 60px;
+  overflow: hidden;
+  font-size: 1.2rem;
+  font-weight: 400;
+  /* white-space: nowrap;
+  text-overflow: ellipsis;  */
+}
+
+#event .event_product .product_price {
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+#event .event_product .product_price span {
+  font-size: 1.4rem;
+  font-weight: 300;
+  color: var(--emart_gray);
+}
+
+#event .event_product .product_option {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--emart_yellow);
+}

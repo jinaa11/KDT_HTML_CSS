@@ -49,6 +49,7 @@
 #event .event_product .product_img {
   height: 180px;
   border: 1px solid #e5e5e5;
+  background-color: var(--emart_yellow);
   margin-bottom: 30px;
 }
 
@@ -56,5 +57,10 @@
   width: 180px;
   object-fit: cover;
   opacity: 1;
+  transition: 0.5s;
+}
+
+#event .event_product .product_img:hover {
+  opacity: 0.5;
   transition: 0.5s;
 }

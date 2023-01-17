@@ -35,3 +35,26 @@
   top: -100px;
   right: 0px;
 }
+
+#event .event_product_container {
+  display: flex;
+  justify-content: space-between;
+}
+
+#event .event_product {
+  width: 180px;
+  margin-top: 30px;
+}
+
+#event .event_product .product_img {
+  height: 180px;
+  border: 1px solid #e5e5e5;
+  margin-bottom: 30px;
+}
+
+#event  .event_product .product_img img {
+  width: 180px;
+  object-fit: cover;
+  opacity: 1;
+  transition: 0.5s;
+}
